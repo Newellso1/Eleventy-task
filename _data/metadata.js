@@ -1,11 +1,10 @@
 module.exports = {
 	title: "I Am Sam",
-	url: "https://example.com/",
+	url: "https://newellso1.github.io/Portfolio_V3/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "This blog follows my journey in switching from a Memorial Mason to a Frontend Web Developer",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "Sam Newell",
+		email: "samnewell91@gmail.com",
 	}
 }
