@@ -6,4 +6,4 @@ eleventyNavigation:
 ---
 # About Me
 
-Just a Memorial Mason looking to make the jump into the world of tech!
+Just a Memorial Mason looking to make the jump into the world of tech!!
