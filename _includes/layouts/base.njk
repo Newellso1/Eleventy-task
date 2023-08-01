@@ -21,7 +21,7 @@
 		4. Learn more: https://github.com/11ty/eleventy-plugin-bundle
 		#}
 
-		{#- Add an arbitrary string to the bundle #}
+		{#- Add an arbitrary string to the bundle #} 
 		{%- css %}* { box-sizing: border-box; }{% endcss %}
 		{#- Add the contents of a file to the bundle #}
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
@@ -37,7 +37,7 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">{% image "./logo-no-background.png", "A possum parent Logo with no background" %}</a>
+			<a href="/" class="home-link"><img id="logo" src="{{ '/assets/img/logo.png' | url }}" alt="logo"></a>
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
